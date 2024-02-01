@@ -1,11 +1,30 @@
 
+@font-face {
+font-family: 'Arvo-Regular';
+font-style: normal;
+font-weight: normal;
+src: url('template_assets/Arvo/Arvo-Regular.ttf');
+}
+
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Arvo-Regular', Arial, Helvetica, sans-serif;
   background-color: rgb(186, 174, 163, 1.0);
+}
+h1 {
+  text-align: center;
+}
+div.body2 {
+  background-color: rgb(252, 252, 252, 0.75);
+  margin: 10px;
+  padding: 5px;
+  border-radius: 15px;
 }
 div.contents {
   background-color: rgb(226, 209, 193, 0.8);
+  margin: 10px;
+  padding: 5px;
+  border-radius: 15px;
 }
 .topnav {
   background-color: rgb(54, 18, 18, 1.0);
